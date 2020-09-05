@@ -1,0 +1,27 @@
+.about-container {
+  text-align: center;
+}
+.about-container .group-img {
+  overflow: hidden;
+  background-image: url("../../assets/group.png");
+  background-size: cover;
+  max-width: 612px;
+  height: 408px;
+  margin: 0 auto;
+}
+.about-container .background-color {
+  height: 400px;
+  background: #c5dbf2;
+}
+.about-container .about-content {
+  margin: 0 auto;
+  max-width: 1024px;
+  margin-top: -320px;
+}
+.about-container .about-header {
+  font-size: 70px;
+  margin-bottom: 38px;
+}
+.about-container .about-text {
+  padding: 20px 40px;
+}

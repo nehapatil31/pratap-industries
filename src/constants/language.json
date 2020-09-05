@@ -1,0 +1,28 @@
+{
+  "english": {
+    "siteName": "Pratap Industries",
+    "knowMore": "Know More",
+
+    "home": "Home",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "langLabel": "मराठी",
+
+    "aboutHeader": "Our Story",
+
+    "contactHeader": "Get in Touch"
+  },
+  "marathi": {
+    "siteName": "प्रताप इंडस्ट्रीज",
+    "knowMore": "अधिक जाणून घ्या",
+
+    "home": "मुख्य पान",
+    "aboutUs": "आमच्याबद्दल",
+    "contact": "संपर्क",
+    "langLabel": "English",
+
+    "aboutHeader": "आमच्याबद्दल ...",
+
+    "contactHeader": "संपर्कात या"
+  }
+}
