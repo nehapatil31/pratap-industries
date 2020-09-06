@@ -8,7 +8,7 @@
   background-image: url("../assets/bannerImg1.jpg");
   background-size: cover;
 } */
-.content {
+/* .content {
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
@@ -17,6 +17,15 @@
   top: 0;
   left: 0;
   text-align: center;
+} */
+
+.change-lang {
+  color: #016d38 !important;
+  font-size: 22px;
+  float: right;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 12px;
 }
 
 .content-text {
@@ -51,6 +60,19 @@
 .logo-container {
   height: 72px;
 }
+.logo-container .content {
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 72px;
+}
+.logo-img,
+.logo_sai-img {
+  height: 70px;
+}
+.logo_sai-img {
+  float: right;
+}
+
 .main-container {
   max-width: 1024px;
   margin: 0 auto;
@@ -99,3 +121,23 @@
   text-align: center;
   padding-top: 24px;
 }
+
+/* numbers container start */
+.top-spacer {
+  height: 100px;
+}
+.numbers-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.numbers-container .number {
+  color: #0080bf;
+  font-size: 48px;
+}
+.numbers-container .text {
+  font-size: 24px;
+}
+/* numbers container end */

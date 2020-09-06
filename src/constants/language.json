@@ -1,12 +1,19 @@
 {
   "english": {
     "siteName": "Pratap Industries",
+    "subheader": "Increasing soil fertility for years..",
     "knowMore": "Know More",
+
+    "yearsExpLabel": "Years of experience",
+    "dealersLabel": "Happy dealers",
+    "productsLabel": "Products",
+
+    "aboutUsDiscription": "Founded in 1999, Pratap Industries is a fertilizer manufacturer company. It is located at Karad, Satara, Maharashtra.  We provide fertilizers in 5 districts of Maharashtra, India (Satara, Sangali, Kolhapur, Sindhudurg, Ratnagiri). We manufacture total 33 products in which organic fertilizers and water solubles are some of the main products. The products manufactured by us helps to increase the fertility of land.",
 
     "home": "Home",
     "aboutUs": "About Us",
     "contact": "Contact",
-    "langLabel": "मराठी",
+    "langLabel": "मराठीमध्ये वाचा",
 
     "aboutHeader": "Our Story",
 
@@ -14,12 +21,19 @@
   },
   "marathi": {
     "siteName": "प्रताप इंडस्ट्रीज",
+    "subheader": "आम्ही वर्षानुवर्षे मातीची सुपीकता वाढवण्यास मदत करतोय..",
     "knowMore": "अधिक जाणून घ्या",
+
+    "yearsExpLabel": "वर्षांचा अनुभव",
+    "dealersLabel": "आनंदी विक्रेते",
+    "productsLabel": "उत्पादने",
+
+    "aboutUsDiscription": "प्रताप इंडस्ट्रीज १९९९ मध्ये स्थापना झाली. आम्ही कराड, सातारा, महाराष्ट्र येथे स्थित आहोत. आम्ही सातारा, सांगली, कोल्हापूर, सिंधुदुर्ग, रत्नागिरी जिल्ह्यात खत पुरवतो. आम्ही एकूण ३३ उत्पादने तयार करतो ज्यात सेंद्रीय खते आणि पाण्याचे विद्रव्ये काही मुख्य उत्पादने आहेत. आमच्याद्वारे उत्पादित उत्पादनांमुळे जमिनीची सुपीकता वाढविण्यात मदत होते.",
 
     "home": "मुख्य पान",
     "aboutUs": "आमच्याबद्दल",
     "contact": "संपर्क",
-    "langLabel": "English",
+    "langLabel": "Read in English",
 
     "aboutHeader": "आमच्याबद्दल ...",
 
