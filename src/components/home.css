@@ -21,7 +21,7 @@
 
 .change-lang {
   color: #016d38 !important;
-  font-size: 22px;
+  font-size: 18px;
   float: right;
   cursor: pointer;
   margin-top: 20px;
@@ -58,7 +58,7 @@
 }
 
 .logo-container {
-  height: 72px;
+  height: 57px;
 }
 .logo-container .content {
   max-width: 1024px;
@@ -67,7 +67,7 @@
 }
 .logo-img,
 .logo_sai-img {
-  height: 70px;
+  height: 56px;
 }
 .logo_sai-img {
   float: right;
@@ -177,6 +177,19 @@
 @media only screen and (max-width: 477px) {
   .top-spacer {
     height: 100px;
+  }
+  .numbers-container .text {
+    font-size: 18px;
+  }
+  .numbers-container .number {
+    font-size: 44px;
+  }
+  .nav-container img {
+    height: 61px;
+    width: 61px;
+  }
+  .tagline {
+    font-size: 22px;
   }
 }
 @media only screen and (max-width: 824px) {

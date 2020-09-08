@@ -25,3 +25,9 @@
 .contact-container .contact-text {
   padding: 20px 40px;
 }
+
+@media only screen and (max-width: 600px) {
+  .contact-container .contact-header {
+    font-size: 58px;
+  }
+}
