@@ -24,4 +24,16 @@
 }
 .about-container .about-text {
   padding: 20px 40px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-container .group-img {
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .about-container .group-img {
+    height: 300px;
+  }
 }

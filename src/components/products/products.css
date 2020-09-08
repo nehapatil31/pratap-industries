@@ -1,3 +1,16 @@
+.options .title {
+  font-size: 70px;
+  text-align: center;
+}
+.options .title:before {
+  content: "";
+  display: block;
+  background: #da4f4c;
+  height: 3px;
+  width: 200px;
+  margin-left: calc(50% - 100px);
+  margin-top: 20px;
+}
 .products-box {
   cursor: pointer;
   transition: all 0.3s;

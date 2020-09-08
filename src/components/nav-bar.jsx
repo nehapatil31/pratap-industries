@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import language from "../constants/language.json";
 import { Link } from "react-scroll";
 import box from "../assets/icons/box.svg";
+import group from "../assets/icons/group.svg";
+import contact from "../assets/icons/contact.svg";
 
 class NavBar extends Component {
   state = {};
@@ -66,32 +68,56 @@ class NavBar extends Component {
       //     </ul>
       //   </form>
       // </nav>
-      <div className="nav-container container">
+      <div className="nav-container">
         <div className="row row-cols-4">
           <div className="col">
-            <div className="icon">
-              <img src={box} alt="product-icon" />
-            </div>
-            <div className="text">Products</div>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <div className="icon">
+                <img src={group} alt="product-icon" />
+              </div>
+              <div className="text">{language[lang].aboutUs}</div>
+            </Link>
           </div>
           <div className="col">
-            <div className="icon">
-              <img src={box} alt="product-icon" />
-            </div>
-            <div className="text">Products</div>
+            <Link
+              activeClass="active"
+              to="products"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <div className="icon">
+                <img src={box} alt="product-icon" />
+              </div>
+              <div className="text">{language[lang].productsLabel}</div>
+            </Link>
           </div>
           <div className="col">
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <div className="icon">
+                <img src={contact} alt="product-icon" />
+              </div>
+              <div className="text">{language[lang].contact}</div>
+            </Link>
+          </div>
+          {/* <div className="col">
             <div className="icon">
               <img src={box} alt="product-icon" />
             </div>
             <div className="text">Products</div>
-          </div>
-          <div className="col">
-            <div className="icon">
-              <img src={box} alt="product-icon" />
-            </div>
-            <div className="text">Products</div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

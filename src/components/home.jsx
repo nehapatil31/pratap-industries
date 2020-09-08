@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "./nav-bar";
 import language from "../constants/language.json";
+import { Link } from "react-scroll";
 import "./home.css";
 import AboutUs from "./about-us/about-us";
 import Contact from "./contact/contact";
@@ -59,7 +60,15 @@ class Home extends Component {
                   <div className="website-name">{language[lang].siteName}</div>
                   <div className="tagline">{language[lang].subheader}</div>
                   <button type="button" className="know-btn">
-                    {language[lang].knowMore}
+                    <Link
+                      activeClass="active"
+                      to="about"
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                    >
+                      {language[lang].knowMore}
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -86,7 +95,7 @@ class Home extends Component {
           </div>
         </div>
         <AboutUs lang={lang} />
-        <Products />
+        <Products lang={lang} />
         <Contact lang={lang} />
       </React.Fragment>
     );

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import language from "../../constants/language.json";
 import "./products.css";
 // products images
 import richmix from "../../assets/products/richmix.JPG";
@@ -10,13 +11,14 @@ import richneem from "../../assets/products/richneem.png";
 class Products extends Component {
   state = {};
   render() {
+    const lang = this.props.lang;
     return (
       <div id="products" className="container options">
-        <h3 className="title">Products</h3>
+        <div className="title">{language[lang].productsLabel}</div>
         <div className="row margin-top">
           <div className="container col-lg-4 products-box">
             <i className="fab fa-think-peaks products-icon"></i>
-            <p className="products-heading">Rich mix</p>
+            <p className="products-heading">{language[lang].richmix}</p>
             <img className="products-img" src={richmix} />
             <p className="products-description">
               It contains silicon. Silicon has the potential to be used in the
@@ -27,7 +29,7 @@ class Products extends Component {
           </div>
           <div className="container col-lg-4 products-box">
             <i className="fab fa-think-peaks products-icon"></i>
-            <p className="products-heading">Micromix</p>
+            <p className="products-heading">{language[lang].micromix}</p>
             <img className="products-img" src={micromix} />
             <p className="products-description">
               It contains : Zink 5% Ferous 2% Copper 0.5% Boron 1% Manganes 1%
@@ -35,7 +37,7 @@ class Products extends Component {
           </div>
           <div className="container col-lg-4 products-box">
             <i className="fab fa-think-peaks products-icon"></i>
-            <p className="products-heading">Humi Rich</p>
+            <p className="products-heading">{language[lang].humirich}</p>
             <img className="products-img" src={humirich} />
             <p className="products-description">
               It helps to increase the photosynthesis process in plants. Because
@@ -47,7 +49,7 @@ class Products extends Component {
         <div className="row">
           <div className="container col-lg-4 products-box">
             <i className="fab fa-think-peaks products-icon"></i>
-            <p className="products-heading">Rich Mag</p>
+            <p className="products-heading">{language[lang].richmag}</p>
             <img className="products-img" src={richmag} />
             <p className="products-description">
               It contains 9.6% Magnesium sulfate (MgSo4) Our magnesium sulfate
@@ -57,7 +59,7 @@ class Products extends Component {
           </div>
           <div className="container col-lg-4 products-box">
             <i className="fab fa-think-peaks products-icon"></i>
-            <p className="products-heading">Rich Neem</p>
+            <p className="products-heading">{language[lang].richneem}</p>
             <img className="products-img" src={richneem} />
             <p className="products-description">
               This is 100% pure organic manure.
