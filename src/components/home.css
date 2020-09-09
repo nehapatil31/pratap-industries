@@ -147,6 +147,9 @@
 .numbers-container .text {
   font-size: 24px;
 }
+.numbers-container .row-cols-3 {
+  width: 100%;
+}
 /* numbers container end */
 
 @media only screen and (max-width: 700px) {

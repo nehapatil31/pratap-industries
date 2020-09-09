@@ -7,14 +7,20 @@
     "yearsExpLabel": "Years of experience",
     "dealersLabel": "Happy dealers",
     "productsLabel": "Products",
+    "topProducts": "Top products",
 
     "aboutUsDiscription": "Founded in 1999, Pratap Industries is a fertilizer manufacturer company. It is located at Karad, Satara, Maharashtra.  We provide fertilizers in 5 districts of Maharashtra, India (Satara, Sangali, Kolhapur, Sindhudurg, Ratnagiri). We manufacture total 33 products in which organic fertilizers and water solubles are some of the main products. The products manufactured by us helps to increase the fertility of land.",
 
     "richmix": "Rich Mix",
+    "richmixDes": "It contains silicon. Silicon has the potential to be used in the production of floriculture crops to increase flower and stem size, accelerate flowering and improve resistance to stresses including drought.",
     "micromix": "Micromix",
+    "micromixDes": "It contains : Zink 5% Ferous 2% Copper 0.5% Boron 1% Manganes 1%",
     "humirich": "Humi Rich",
+    "humirichDes": "It helps to increase the photosynthesis process in plants. Because of it crops get required nutrients. It can be used for all types of crops.",
     "richmag": "Rich Mag",
+    "richmagDes": "It contains 9.6% Magnesium sulfate (MgSo4) Our magnesium sulfate fertilizer is designed to easily correct or prevent magnesium deficiencies for all types of crops and soil conditions.",
     "richneem": "Rich Neem",
+    "richneemDes": "This is 100% pure organic manure.",
 
     "home": "Home",
     "aboutUs": "About Us",
@@ -33,14 +39,20 @@
     "yearsExpLabel": "वर्षांचा अनुभव",
     "dealersLabel": "आनंदी विक्रेते",
     "productsLabel": "उत्पादने",
+    "topProducts": "मुख्य उत्पादने",
 
     "aboutUsDiscription": "प्रताप इंडस्ट्रीज १९९९ मध्ये स्थापना झाली. आम्ही कराड, सातारा, महाराष्ट्र येथे स्थित आहोत. आम्ही सातारा, सांगली, कोल्हापूर, सिंधुदुर्ग, रत्नागिरी जिल्ह्यात खत पुरवतो. आम्ही एकूण ३३ उत्पादने तयार करतो ज्यात सेंद्रीय खते आणि पाण्याचे विद्रव्ये काही मुख्य उत्पादने आहेत. आमच्याद्वारे उत्पादित उत्पादनांमुळे जमिनीची सुपीकता वाढविण्यात मदत होते.",
 
     "richmix": "रिच मिक्स",
+    "richmixDes": "वनस्पतींना आवश्यक १६ मूलद्रव्यांसोबत सिलिकॉन, सोडियम व कोबाल्ट ही अन्नद्रव्येही वनस्पतीच्या वाढीसाठी आवश्यक आहेत. रिच मिक्स हे सिलिकॉन युक्त खत आहे. रासायनिक खतामुळे होणारे दुष्परिणाम कमी करण्यासाठी सिलिकॉन या अन्नद्रव्याची मदत होते. ",
     "micromix": "मायक्रो मिक्स",
+    "micromixDes": "साई मायक्रोमिक्स ग्रेड १ मध्ये झिंक , कॉपर , फेरस , बोरॉन व मॅगनीज  यांचे मिश्रण असून या प्रत्येक घटकाचा पिकांच्या वाढीसाठी या उत्पादन वाढवण्यासाठी भरपूर फायदा होतो.",
     "humirich": "ह्युमी रिच",
+    "humirichDes": "ह्युमी रिचमुळे जमिनीची सुपीकता वाढून पांढऱ्या मुळांचा विकास होतो. प्रकाश संश्लेषणाची प्रक्रिया जलद गतीने होण्यास मदत होते.",
     "richmag": "रिच मॅग",
+    "richmagDes": "रिच मॅग च्या वापरामुळे पिकांचा रंग हिरवागार होतो. रिच मॅगचा वापर ऊस, केळी, भात, फळबाग तसेच पालेभाज्या, आले, हळद इ. पिकांमध्ये चांगलया प्रकारे केला जातो.",
     "richneem": "रिचनिम",
+    "richneemDes": "रिचनिम  हे एक निंबोळीयुक्त सेंद्रिय खत असून याच्या वापरामुळे जमिनीच्या भौतिक, जैविक व रासायनिक गुणधर्मामध्ये सुधारणा होऊन जमिनीचा पोत सुधारतो.",
 
     "home": "मुख्य पान",
     "aboutUs": "आमच्याबद्दल",
