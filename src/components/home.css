@@ -119,10 +119,12 @@
 .nav-container .text {
   margin-top: 12px;
   font-weight: 500;
+  cursor: pointer;
 }
 .nav-container img {
   height: 67px;
   width: 67px;
+  cursor: pointer;
 }
 .nav-container .col {
   text-align: center;
@@ -185,7 +187,7 @@
     font-size: 18px;
   }
   .numbers-container .number {
-    font-size: 44px;
+    font-size: 33px;
   }
   .nav-container img {
     height: 61px;

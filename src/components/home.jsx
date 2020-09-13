@@ -59,7 +59,7 @@ class Home extends Component {
                 <div className="content-text">
                   <div className="website-name">{language[lang].siteName}</div>
                   <div className="tagline">{language[lang].subheader}</div>
-                  <button type="button" className="know-btn">
+                  {/* <button type="button" className="know-btn">
                     <Link
                       activeClass="active"
                       to="about"
@@ -69,7 +69,7 @@ class Home extends Component {
                     >
                       {language[lang].knowMore}
                     </Link>
-                  </button>
+                  </button> */}
                 </div>
               </div>
               <div className="image-container column"></div>
@@ -81,15 +81,15 @@ class Home extends Component {
         <div className="numbers-container">
           <div className="row row-cols-3">
             <div className="col">
-              <div className="number">15+</div>
+              <div className="number">20+</div>
               <div className="text">{language[lang].yearsExpLabel}</div>
             </div>
             <div className="col">
-              <div className="number">200+</div>
+              <div className="number">1150+</div>
               <div className="text">{language[lang].dealersLabel}</div>
             </div>
             <div className="col">
-              <div className="number">30+</div>
+              <div className="number">50+</div>
               <div className="text">{language[lang].productsLabel}</div>
             </div>
           </div>
